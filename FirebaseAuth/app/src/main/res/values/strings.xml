@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+
+    <string name="sing_up">sing up</string>
+    <string name="sing_in">sing in</string>
+    <string name="createAccount">create account</string>
+    <string name="forgetPassword">Forget your password /?</string>
+
+    <!-- hint for edit text-->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>

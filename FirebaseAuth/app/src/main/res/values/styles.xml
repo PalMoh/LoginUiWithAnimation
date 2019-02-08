@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@drawable/bg_tint</item>
+    </style>
+
+    <style name="mButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="rippleColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/cairo_semibold</item>
+    </style>
+
+    <style name="mEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@color/textColorHint</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/cairo_semibold</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+</resources>
